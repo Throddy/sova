@@ -1,0 +1,81 @@
+{
+  "Н1": {
+    "Р1": {"claims": [
+      {"attr": "road", "value": "закрыта", "time": "12:05", "cited": null, "observer": "ГИБДД", "subject": "", "quote": "трасса на райцентр закрыта"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "road", "value": "открыта", "time": "12:10", "cited": null, "observer": "Дорожная служба", "subject": "", "quote": "трасса на райцентр открыта"}
+    ]},
+    "Р3": {"claims": [
+      {"attr": "road", "value": "закрыта", "time": null, "cited": "ГИБДД", "observer": null, "subject": "", "quote": "трасса на райцентр закрыта"}
+    ]}
+  },
+  "Н2": {
+    "Р1": {"claims": [
+      {"attr": "distance_km", "value": "6.2", "time": "13:00", "cited": null, "observer": "РТП", "subject": "кромка, посёлок", "quote": "кромка в 6,2 км от посёлка"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "distance_km", "value": "3", "time": "13:10", "cited": "Глава поселения", "observer": null, "subject": "", "quote": "огонь в 3 км от посёлка"}
+    ]}
+  },
+  "Н3": {
+    "Р1": {"claims": [
+      {"attr": "distance_km", "value": "4.0", "time": "14:00", "cited": null, "observer": "РТП", "subject": "северная кромка, посёлок", "quote": "северная кромка в 4,0 км от посёлка"},
+      {"attr": "distance_km", "value": "6.5", "time": "14:00", "cited": null, "observer": "РТП", "subject": "южная кромка, посёлок", "quote": "южная в 6,5 км"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "distance_km", "value": "6.3", "time": "14:12", "cited": null, "observer": "БПЛА", "subject": "южная кромка, посёлок", "quote": "южная кромка в 6,3 км от посёлка"}
+    ]}
+  },
+  "Н4": {
+    "Р1": {"claims": [
+      {"attr": "road", "value": "открыта", "time": "11:00", "cited": null, "observer": "ГИБДД", "subject": "", "quote": "дорога на райцентр открыта"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "evacuated", "value": "40", "time": "11:10", "cited": null, "observer": "ЕДДС", "subject": "", "quote": "эвакуировано 40 человек"}
+    ]},
+    "Р3": {"claims": [
+      {"attr": "road", "value": "закрыта", "time": "12:30", "cited": null, "observer": "ГИБДД", "subject": "", "quote": "дорогу на райцентр закрыли"}
+    ]},
+    "Р4": {"claims": [
+      {"attr": "evacuated", "value": "150", "time": "12:40", "cited": null, "observer": "ЕДДС", "subject": "", "quote": "эвакуировано 150 человек"}
+    ]}
+  },
+  "Н5": {
+    "Р1": {"claims": [
+      {"attr": "distance_km", "value": "3.4", "time": "15:05", "cited": null, "observer": "Авиалесоохрана", "subject": "кромка, посёлок", "quote": "кромка в 3,4 км от посёлка"},
+      {"attr": "area_ha", "value": "520", "time": "15:05", "cited": null, "observer": "Авиалесоохрана", "subject": "", "quote": "площадь около 520 га"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "distance_km", "value": "3.2", "time": "15:15", "cited": null, "observer": "РТП", "subject": "кромка, посёлок", "quote": "кромка в 3,2 км от посёлка"}
+    ]},
+    "Р3": {"claims": [
+      {"attr": "distance_km", "value": "4.5", "time": "13:50", "cited": null, "observer": "ИСДМ", "subject": "кромка, посёлок", "quote": "кромка около 4,5 км от посёлка"},
+      {"attr": "area_ha", "value": "450", "time": "13:50", "cited": null, "observer": "ИСДМ", "subject": "", "quote": "площадь 450 га"}
+    ]}
+  },
+  "Н6": {
+    "Р1": {"claims": [
+      {"attr": "distance_km", "value": "2.6", "time": "16:00", "cited": null, "observer": "РТП", "subject": "кромка, посёлок", "quote": "кромка в 2,6 км от посёлка"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "distance_km", "value": "2.4", "time": "16:10", "cited": "БПЛА", "observer": "БПЛА", "subject": "кромка, посёлок", "quote": "он сам видел кромку в 2,4 км от посёлка"}
+    ]}
+  },
+  "Н7": {
+    "Р1": {"claims": [
+      {"attr": "evacuated", "value": "180", "time": "17:00", "cited": null, "observer": "ЕДДС", "subject": "", "quote": "эвакуировано 180 человек"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "evacuated", "value": "60", "time": null, "cited": null, "observer": "Глава поселения", "subject": "", "quote": "вывезли уже человек 60"}
+    ]}
+  },
+  "Н8": {
+    "Р1": {"claims": [
+      {"attr": "distance_km", "value": "5.5", "time": "13:00", "cited": null, "observer": "РТП", "subject": "кромка, посёлок", "quote": "кромка в 5,5 км от посёлка"}
+    ]},
+    "Р2": {"claims": [
+      {"attr": "distance_km", "value": "2.0", "time": "14:00", "cited": null, "observer": "РТП", "subject": "кромка, посёлок", "quote": "кромка в 2,0 км от посёлка"}
+    ]}
+  }
+}

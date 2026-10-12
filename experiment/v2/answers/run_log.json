@@ -1,0 +1,146 @@
+{
+ "summary_run1": {
+  "agent": "aa06302fa4f6ea4a8",
+  "model": {
+   "claude-sonnet-5-5": 5
+  },
+  "start": "2026-10-11T14:47:18.813Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "summary_run2": {
+  "agent": "a2171e1edcf4e8fec",
+  "model": {
+   "claude-sonnet-5-5": 4
+  },
+  "start": "2026-10-11T14:47:22.650Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "summary_run3": {
+  "agent": "a2e0c410fad907c1e",
+  "model": {
+   "claude-sonnet-5-5": 5
+  },
+  "start": "2026-10-11T14:47:26.134Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "extract_run1": {
+  "agent": "a086d051bc8893837",
+  "model": {
+   "claude-sonnet-5-5": 4
+  },
+  "start": "2026-10-11T14:47:30.575Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "extract_run2": {
+  "agent": "a5efd3e2f8d654d7a",
+  "model": {
+   "claude-sonnet-5-5": 4
+  },
+  "start": "2026-10-11T14:47:34.314Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "extract_run3": {
+  "agent": "a6e699c0000890f3a",
+  "model": {
+   "claude-sonnet-5-5": 4
+  },
+  "start": "2026-10-11T14:47:38.142Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "haiku_summary_run1": {
+  "agent": "a592fd89a1161b441",
+  "model": {
+   "claude-haiku-5-5": 5
+  },
+  "start": "2026-10-11T14:49:58.784Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "haiku_summary_run2": {
+  "agent": "a30e5d132c8d97962",
+  "model": {
+   "claude-haiku-5-5": 5
+  },
+  "start": "2026-10-11T14:50:02.316Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "haiku_summary_run3": {
+  "agent": "abc0e05941ba894b6",
+  "model": {
+   "claude-haiku-5-5": 5
+  },
+  "start": "2026-10-11T14:50:05.518Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "haiku_extract_run1": {
+  "agent": "a0e220a7860a80df7",
+  "model": {
+   "claude-haiku-5-5": 5
+  },
+  "start": "2026-10-11T14:50:09.096Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "haiku_extract_run2": {
+  "agent": "a6ae8982420761ac5",
+  "model": {
+   "claude-haiku-5-5": 5
+  },
+  "start": "2026-10-11T14:50:12.990Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ },
+ "haiku_extract_run3": {
+  "agent": "af860b2a6ae9e0b41",
+  "model": {
+   "claude-haiku-5-5": 5
+  },
+  "start": "2026-10-11T14:50:16.194Z",
+  "tools": [
+   "Read",
+   "Write",
+   "SubagentHandback"
+  ]
+ }
+}
