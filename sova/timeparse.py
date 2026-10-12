@@ -26,16 +26,32 @@ def parse_obs_time(text: str, t_rec: int, tz_aware: bool = True) -> tuple[int, b
     return t, False
 
 
-def obs_time_quote(text: str) -> str:
-    """Фрагмент текста, из которого взято время наблюдения: слово перед временем,
-    само время и пометка МСК, если она есть. Пусто, если времени в тексте нет.
-    Показывается в карточке основания рядом со временем наблюдения."""
-    m = TIME_RE.search(text)
-    if not m:
-        return ""
+def _fragment(text: str, m: re.Match) -> str:
     start = text.rfind(" ", 0, max(m.start() - 1, 0)) + 1
     end = m.end()
     msk = text.find("МСК", end, end + 6)
     if msk >= 0:
         end = msk + 3
     return text[start:end]
+
+
+def obs_time_quote(text: str) -> str:
+    """Фрагмент текста, из которого взято время наблюдения: слово перед временем,
+    само время и пометка МСК, если она есть. Пусто, если времени в тексте нет.
+    Показывается в карточке основания рядом со временем наблюдения."""
+    m = TIME_RE.search(text)
+    return _fragment(text, m) if m else ""
+
+
+def time_quote_for(text: str, t_local: int, tz_aware: bool = True) -> str:
+    """Фрагмент текста, где стоит именно это время (в местном времени, с учётом МСК).
+    Нужен, когда время наблюдения назвала модель: в донесении может быть несколько
+    времён, например «Донесение от 15:50. На 15:30 кромка в 3 км». Пусто, если
+    такого времени в тексте нет, то есть модель его не нашла, а придумала."""
+    for m in TIME_RE.finditer(text):
+        t = int(m.group(1)) * 60 + int(m.group(2))
+        if tz_aware and "МСК" in text[m.end(): m.end() + 6]:
+            t += MSK_SHIFT
+        if t % 1440 == t_local % 1440:
+            return _fragment(text, m)
+    return ""
